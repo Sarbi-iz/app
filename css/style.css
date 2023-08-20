@@ -1,0 +1,137 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #121127;
+    padding: 8px 24px;
+    border: 1px solid #EEE3E5;
+    border-radius: 6px;
+    transition: 0.2s linear;
+}
+.btn:hover{
+    background-color: #444BD3;
+    color: #fff;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: 121127;
+}
+
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    margin-bottom: 90px;
+}
+.header-wrap {
+    padding: 34px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #525161;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.header__logo img{
+    display: inline-block;
+}
+.nav__menu-link{
+    margin-left: 48px;
+}
+.header__btn{
+    padding: 8px 24px;
+    border: 1px solid #EEE3E5;
+    margin-right: 8px;
+}
+.header__btn:first-child{
+    border: none;
+}
+.header__btn:last-child{
+    margin-left: 0;
+}
+.btn-active{
+    background-color: #444BD3;
+    color: #fff;
+}
+.main{
+    padding-bottom: 163px;
+}
+.main-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__title{
+    max-width: 936px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main__subtitle{
+    font-size: 20px;
+    line-height: 180%;
+    margin-bottom: 72px;
+}
+.features{
+    padding: 24px 0 96px 0;
+}
+.features__pretitle{
+    font-size: 14px;
+    color: #444BD3;
+    line-height: 170%; /* 23.8px */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+.features__title{
+    max-width: 640px;
+    font-size: 40px;
+    line-height: 140%; /* 56px */
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.features__box{
+    display: flex;
+    align-items: center;
+}
+.features__box-items{
+    display: flex;
+    padding: 56px 24px;
+    width: 264px;
+    margin-right: 24px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 12px;
+    background: #FFF;
+    /* Drop Shadow/High */
+    box-shadow: 0px 20px 50px 0px rgba(18, 17, 39, 0.08);
+}
+.features__box-items:last-child{
+    margin-right:0;
+}
